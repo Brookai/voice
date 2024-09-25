@@ -384,7 +384,7 @@
     @try {
       [mixer
           installTapOnBus:0
-               bufferSize:1024
+               bufferSize:4096
                    format:recordingFormat
                     block:^(AVAudioPCMBuffer *_Nonnull buffer,
                             AVAudioTime *_Nonnull when) {
